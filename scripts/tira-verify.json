@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Based on the image provided, here is the verification of the Tira Beauty logo:\n\n1.  **Weight & Case:** **Yes.** The text is in a light/regular weight (not bold) and is entirely lowercase.\n2.  **Background:** **Yes.** The background appears to be cleanly transparent. There are no white boxes, halos, or visible speckles around the red lettering.\n3.  **Completeness:** **Yes.** All four letters ('t', 'i', 'r', 'a') are fully present with no cut-offs.\n4.  **Quality:** **Yes.** The logo looks crisp, clean, and professional.\n\n**Conclusion:** The asset meets all the specified requirements for the website.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789481788,
+  "id": "20260915221624a7aa70fe23774300",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260915221624a7aa70fe23774300",
+  "usage": {
+    "completion_tokens": 154,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 380
+  }
+}

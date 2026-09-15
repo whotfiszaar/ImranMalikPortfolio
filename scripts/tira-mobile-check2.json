@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "No, the red 'tira' wordmark is not visible in the provided image.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789481884,
+  "id": "20260915221803b30b3d60b57d4565",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260915221803b30b3d60b57d4565",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 466,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 485
+  }
+}

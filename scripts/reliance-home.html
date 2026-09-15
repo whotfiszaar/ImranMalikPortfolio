@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+    <title>Reliance Retail Ltd India’s largest retailer</title>
+    <meta
+        content="Reliance Retail has grown to become India’s largest retailer delivering superior value to its customers, suppliers and shareholders"
+        name="Keywords" />
+    <meta
+        content="Reliance Retail has grown to become India’s largest retailer delivering superior value to its customers, suppliers and shareholders"
+        property="description">
+    <meta content="Reliance Retail Ltd India’s largest retailer" property="og:site_name">
+    <meta content="Reliance Retail Ltd" property="og:title">
+    <meta content="Reliance Retail Ltd India’s largest retailer" property="og:type">
+    <link href="https://relianceretail.com/img/RRfavicon.png" rel="shortcut icon" type="image/x-icon" />
+    <meta content="https://relianceretail.com/img/RRfavicon.png" itemprop="image" property="og:image" />
+    <meta content="www.relianceretail.com" property="og:url" />
+    <!--common style-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css?v=1.0" rel="stylesheet" />
+    <link href="css/style.css?v=1.1" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MQHHZB3');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-199643093-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-199643093-1');
+    </script>
+    </meta>
+    </meta>
+    </meta>
+    </meta>
+    <style>
+
+.carousel-indicators .active
+ {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #BC2824 !important;
+}
+        .skip-link {
+            position: absolute;
+            left: -999px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .skip-link:focus {
+            left: 0;
+            top: 0;
+            width: auto;
+            height: auto;
+            background: #000;
+            color: #fff;
+            z-index: 100;
+            padding: 8px;
+        }
+
+        :focus-visible {
+            outline: 3px solid #0078D7;
+            outline-offset: 2px;
+        }
+
+        /* For better keyboard accessibility */
+        a:focus,
+        button:focus,
+        input:focus,
+        textarea:focus,
+        [tabindex]:focus {
+            outline: 3px solid #0078D7;
+            /* Blue outline */
+            outline-offset: 2px;
+            box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.5);
+        }
+
+        #pauseBtn {
+            position: fixed;
+            bottom: 13%;
+            right: 38px;
+            transform: translateY(-50%);
+            background-color: #bc2824;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            width: 44px;
+            height: 44px;
+            font-size: 22px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+            user-select: none;
+			z-index: 99;
+        }
+
+        #pauseBtn:hover,
+        #pauseBtn:focus {
+            background-color: #9e201d;
+            /* Darker red on hover/focus */
+            outline: none;
+        }
+
+
+        .icon {
+            font-size: 18px;
+            line-height: 1;
+        }
+
+        .bs-info h2 {
+    margin: 0;
+    color: #FFF;
+    font-family: 'JioType-Bold';
+    padding: 0px 0px;
+}
+
+.bs-info p {
+    font-size: 18px;
+    display: block;
+    color: #FFF;
+    padding: 0px 0px;
+}
+
+.carousel-indicators button {
+    border-radius: 50px;
+    height: 12px;
+    width: 12px;
+    border: 0px;
+}
+.carousel-indicators button:focus{
+    outline: 1px solid #0078D7;
+}
+
+.carousel-controls {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .carousel-controls button {
+        color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #cb2925;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 50%;
+    border: 0;
+    }
+    .carousel-controls button:focus {
+        outline: 2px solid #007bff;
+    }
+
+    .owl-controls .owl-nav {
+        display: none;
+    }
+
+#owl-brands {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#owl-brands .item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#owl-brands .owl-item {
+    list-style: none;
+}
+
+#owl-brands li::marker {
+    content: "";
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+        <!-- <script src="include/header.js"></script> -->
+        <div id="header-placeholder"></div>
+
+
+    <main id="main-content" role="main" tabindex="-1" aria-label="main">
+
+
+<!-- Hidden page-level H1 (only once) -->
+<h1 class="sr-only">Reliance Retail</h1>
+
+<div class="carousel slide" id="mycarousel" role="tablist" aria-label="Homepage highlights">
+
+  <!-- Controls -->
+  <a aria-label="Previous Slide" class="left carousel-control" data-slide="prev" href="#mycarousel" role="button"><i class="lefticon"></i></a>
+  <a aria-label="Next Slide" class="right carousel-control" data-slide="next" href="#mycarousel" role="button"><i class="righticon"></i></a>
+
+  <!-- Indicators (now buttons with ARIA roles) -->
+  <div class="carousel-indicators">
+    <button type="button" 
+            id="tab1" 
+            data-target="#mycarousel" 
+            data-slide-to="0" 
+            role="tab" 
+            aria-controls="slide1" 
+            aria-selected="true" 
+            aria-label="Slide 1 Selected">
+    </button>
+    <button type="button" 
+            id="tab2" 
+            data-target="#mycarousel" 
+            data-slide-to="1" 
+            role="tab" 
+            aria-controls="slide2" 
+            aria-selected="false" 
+            aria-label="Slide 2">
+    </button>
+    <button type="button" 
+            id="tab3" 
+            data-target="#mycarousel" 
+            data-slide-to="2" 
+            role="tab" 
+            aria-controls="slide3" 
+            aria-selected="false" 
+            aria-label="Slide 3">
+    </button>
+  </div>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" aria-live="polite">
+    <div class="item active" id="slide1" role="tabpanel" aria-labelledby="tab1">
+      <img alt="" src="img/banner/bs1.jpg" />
+      <div class="container">
+        <div class="bs-info fadeInDown animated">
+          <h2>Customer First</h2>
+          <p>Building India's largest retail company</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item" id="slide2" role="tabpanel" aria-labelledby="tab2">
+      <img alt="" src="img/banner/bs2.jpg" />
+      <div class="container">
+        <div class="bs-info fadeInDown animated">
+          <h2>Celebrating Choice</h2>
+          <p>Delighting with experience, availability &amp; value</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item" id="slide3" role="tabpanel" aria-labelledby="tab3">
+      <img alt="" src="img/banner/bs3.jpg" />
+      <div class="container">
+        <div class="bs-info fadeInDown animated">
+          <h2>Delivering Happiness</h2>
+          <p>Building a billion relationships</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+        <div class="icon-bar">
+            <script src="include/socialmedia.js"></script>
+        </div>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-MQHHZB3"
+                style="display:none;visibility:hidden" width="0"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!--  preloader start -->
+        <div id="tb-preloader">
+            <div class="tb-preloader-wave"></div>
+        </div>
+        <!-- preloader end -->
+        <!--header start-->
+
+        <!--header end-->
+        <!--hero section-->
+       <!-- Hidden page-level H1 (only once) -->
+
+
+
+        <!--hero section-->
+        <!--about section-->
+        <section class="ptb-50" id="about">
+            <div class="container">
+			
+			
+                <!--<div class="row">
+                    <div class="section-title text-center">
+                        <h2 class="p-30" style="text-transform:none;">Your Account</h2>
+                        <a href="https://www.relianceretail.com/R1/"
+                            style=" background: #bc2824; color: #FFF; padding: 5px 15px;font-size:16px;"
+                            target="_blank">Sign in</a>  
+                        <a href="https://www.relianceretail.com/R1/"
+                            style=" background: #bc2824; color: #FFF; padding: 5px 15px; font-size:16px;"
+                            target="_blank">Sign up</a>
+                    </div>
+                </div>-->
+				
+				
+				
+                <div class="row">
+                    <div class="section-title text-center p-30">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <p>Since its inception in 2006, Reliance Retail has grown to become India’s largest retailer
+                            delivering superior value to its customers, suppliers and shareholders. Our nationwide
+                            network of retail outlets delivers a world-class shopping environment and unmatched customer
+                            experience powered by our state-of-the-art technology and seamless supply-chain
+                            infrastructure.</p>
+                        <a href="our-business.html">Learn more about us.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about section-->
+        <!--barnds section-->
+        <section class="no-pt" id="brands">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        <h2>Our Brands</h2>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <!-- Carousel Wrapper -->
+<div class="owl-carousel-wrapper" role="region" aria-label="Our Brands Carousel">
+    
+   
+
+    <!-- Carousel Content
+    <div class="owl-carousel" id="owl-brands" aria-live="polite"  tabindex="0"> -->
+	<ul class="owl-carousel" id="owl-brands" aria-live="polite" tabindex="0">
+        
+        <!-- Brand: Smart Bazaar -->
+        <li aria-label="Brand: Smart Bazaar" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="#">
+                        <div class="brand-logo">
+                            <img alt="Smart Bazaar logo" src="img/brands/smart-bazar.png" />
+                        </div>
+                        <p>Smart Bazaar</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Brand: Smart Super Store -->
+        <li aria-label="Brand: Smart Super Store" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="#">
+                        <div class="brand-logo">
+                            <img alt="Smart Super Store logo" src="img/brands/smart-super-store.png" />
+                        </div>
+                        <p>Smart Super Store</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Brand: Neighbourhood Convenience Store -->
+        <li aria-label="Brand: Neighbourhood Convenience Store" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="reliance-smart.html#ril-fd">
+                        <div class="brand-logo">
+                            <img alt="Neighbourhood Convenience Store logo" src="img/brands/reliance-smart-point.png" />
+                        </div>
+                        <p>Neighbourhood Convenience Store</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Brand: Fresh Signature -->
+        <li aria-label="Brand: Fresh Signature" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="fresh-signature.html">
+                        <div class="brand-logo">
+                            <img alt="Fresh Signature logo" src="img/brands/fresh-signature-logo.jpg" />
+                        </div>
+                        <p>Fresh Signature is a reimagined contemporary supermarket</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Brand: 7-Eleven -->
+        <li aria-label="Brand: 7-Eleven" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="7-Eleven.html">
+                        <div class="brand-logo">
+                            <img alt="7-Eleven logo" src="img/brands/7-Eleven.png" />
+                        </div>
+                        <p>World’s #1 convenience store</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Brand: Freshpik -->
+        <li aria-label="Brand: Freshpik" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="freshpik.html">
+                        <div class="brand-logo">
+                            <img alt="Freshpik logo" src="img/brands/freshpik-logo.jpg" />
+                        </div>
+                        <p>Freshpik: one-of-a-kind contemporary food and grocery destination</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Brand: Shri Kannan Smart -->
+        <li aria-label="Brand: Shri Kannan Smart" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="#">
+                        <div class="brand-logo">
+                            <img alt="Shri Kannan Smart logo" src="img/brands/shri-kannan-smart.jpg" />
+                        </div>
+                        <p>Shri Kannan Smart</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Brand: Jaisuryas -->
+        <li aria-label="Brand: Jaisuryas" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="#">
+                        <div class="brand-logo">
+                            <img alt="Jaisuryas Stores logo" src="img/brands/Jaisuryas-Stores.png" />
+                        </div>
+                        <p>Supermarket</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <!-- ... Continue with ALL brands exactly as in your provided list ... -->
+
+        <!-- Brand: Ajio -->
+        <li aria-label="Brand: Ajio" class="item" role="group">
+            <div class="panel brand-panel">
+                <div class="panel-body">
+                    <a href="https://www.ajio.com/" target="_blank">
+                        <div class="brand-logo">
+                            <img alt="Ajio logo" src="img/brands/ajio.png" />
+                        </div>
+                        <p>Curated online fashion store</p>
+                        <img alt="Navigate to next brand" class="arrow" src="img/brands/arrow.png" />
+                    </a>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+
+     <!-- Accessible Carousel Controls -->
+ <div class="carousel-controls">
+    <button id="prevBrand" aria-label="Previous Brand">⟨</button>
+    <button id="nextBrand" aria-label="Next Brand">⟩</button>
+</div>
+</div>
+
+
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--barnds section-->
+        <!--barnds banner section-->
+        <!--<section id="brand-banner" class="no-padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="owl-brand-banner" class="owl-carousel">
+                    <div class="item">
+                        <img src="img/brands/brand-banner-1.jpg" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="img/brands/brand-banner-2.jpg" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="img/brands/brand-banner-3.jpg" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+        <!--barnds banner section-->
+        <!--investor section-->
+        <!--<section id="investor" class="ptb-50">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h2>Investor Relations</h2>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <p>Keep up to date with all latest news and updates from Reliance Retail</p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="investor-relations.html" class="btn btn-blue btn-block btn-lg">IR Contact</a>
+                </div>
+                <div class="col-sm-offset-4 col-sm-4">
+                    <a href="http://www.ril.com/OurBusinesses/Retail-Investor-Relations.aspx" target="_blank" class="btn btn-blue btn-block btn-lg">Investor Updates</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://www.ril.com/MediaReleases.aspx" class="btn btn-blue btn-block btn-lg" target="_blank">RIL Media Releases</a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+        <!--investor section-->
+        <!--footer start-->
+
+        <!--footer end-->
+        <!-- Placed js at the end of the document so the pages load faster -->
+
+
+
+
+
+
+
+
+        <!--common scripts-->
+
+        <!--<script type="text/javascript">
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        var browserinfo = get_browser_info();
+        function get_browser_info() {
+            var ua = navigator.userAgent, tem, M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [], d = 'desktop', OSName = 'unknown-os';
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|OperaMini/i.test(ua)) {
+                d = 'mobile';
+            }
+            if (navigator.appVersion.indexOf("Win") != -1)
+                OSName = "windows";
+            if (navigator.appVersion.indexOf("Mac") != -1)
+                OSName = "mac";
+            if (navigator.appVersion.indexOf("X11") != -1)
+                OSName = "unix";
+            if (navigator.appVersion.indexOf("Linux") != -1)
+                OSName = "linux";
+            if (/trident/i.test(M[1])) {
+                tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+                return { name: 'ie', version: (tem[1] || ''), device: d, os: OSName };
+            }
+            if (M[1] === 'Chrome') {
+                tem = ua.match(/\bOPR\/(\d+)/)
+                if (tem != null) {
+                    return { name: 'opera', version: tem[1], device: d, os: OSName };
+                }
+            }
+            M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
+            if ((tem = ua.match(/version\/(\d+)/i)) != null) {
+                M.splice(1, 1, tem[1]);
+            }
+            return { name: M[0].toLowerCase(), version: M[1], device: d, os: OSName };
+        }
+
+        function redirect() {
+            var url = "https://relianceretail.com/landing.html";
+            window.location.href = url;
+            return false;
+        }
+        console.log('Browser :' + browserinfo.name + 'Version' + browserinfo.version);
+        var pathname = window.location.href; // Returns path only
+
+        if (pathname.includes("relianceretail.com") == true) {
+            console.log("Welcome To Reliance Retail.com");
+            if (browserinfo.name === 'ie' || browserinfo.name === 'msie') {
+                console.log('Browser :' + browserinfo.name + 'Version' + browserinfo.version);
+                //if (browserinfo.name == 'chorme' && browserinfo.version > 49) {
+            }
+            else if (browserinfo.name === 'chrome' & browserinfo.version > 49) {
+                console.log('Browser1 :' + browserinfo.name + 'Version' + browserinfo.version);
+                if (getCookie("FCMNotification") == "") {
+                    console.log("Empty" + getCookie("FCMNotification"));
+                    redirect();
+                }
+            }
+            else if (browserinfo.name === 'firefox' & browserinfo.version > 44) {
+                console.log('Browser1 :' + browserinfo.name + 'Version' + browserinfo.version);
+                if (getCookie("FCMNotification") == "") {
+                    console.log("Empty" + getCookie("FCMNotification"));
+                    redirect();
+                }
+            }
+        }
+    </script>-->
+    </main>
+  
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/rr-fixes.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menuzord.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/smooth.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  
+
+    <div id="footer"></div>
+       <footer role="contentinfo">
+        <script src="include/footer.js"></script>
+    </footer>
+    <!-- <div id="footer-placeholder"></div> -->
+
+    <button aria-label="Pause carousel" id="pauseBtn" title="Pause carousel">
+        &#10073;&#10073; <!-- Pause icon initially -->
+    </button>
+
+    <script>
+        const carousel = document.querySelector('#mycarousel');
+        let paused = false;
+
+        const pauseBtn = document.getElementById('pauseBtn');
+
+        pauseBtn.addEventListener('click', function () {
+            if (!paused) {
+                $('.carousel').carousel('pause');
+                pauseBtn.innerHTML = '&#9658;'; // Play icon ►
+                pauseBtn.setAttribute('aria-label', 'Play carousel');
+                pauseBtn.title = 'Play carousel';
+            } else {
+                $('.carousel').carousel('cycle');
+                pauseBtn.innerHTML = '&#10073;&#10073;'; // Pause icon ❚❚
+                pauseBtn.setAttribute('aria-label', 'Pause carousel');
+                pauseBtn.title = 'Pause carousel';
+            }
+            paused = !paused;
+        });
+    </script>
+
+<script>
+    $(document).ready(function(){
+        var owl = $("#owl-brands").owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: false, // disabled auto-slide
+            nav: false,
+            dots: false
+        });
+    
+        $("#prevBrand").on("click keydown", function(e){
+    if (e.type === "click" || e.key === "Enter" || e.key === " " || e.key === "Spacebar" || e.code === "Space") {
+        e.preventDefault();
+        owl.trigger("prev.owl.carousel");
+    }
+});
+
+$("#nextBrand").on("click keydown", function(e){
+    if (e.type === "click" || e.key === "Enter" || e.key === " " || e.key === "Spacebar" || e.code === "Space") {
+        e.preventDefault();
+        owl.trigger("next.owl.carousel");
+    }
+});
+    });
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Add accessible labels to Owl Carousel navigation buttons
+      const prevBtn = document.querySelectorAll(".owl-prev");
+      const nextBtn = document.querySelectorAll(".owl-next");
+  
+      prevBtn.forEach(btn => btn.setAttribute("aria-label", "Previous Slide"));
+      nextBtn.forEach(btn => btn.setAttribute("aria-label", "Next Slide"));
+    });
+  </script>
+</body>
+
+</html>

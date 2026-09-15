@@ -1,0 +1,82 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Tira Beauty official brand logo wordmark, the beauty retail brand by Reliance"
+✅ Got 10 images
+{
+  "success": true,
+  "query": "Tira Beauty official brand logo wordmark, the beauty retail brand by Reliance",
+  "count": 10,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1aad71af6f08.jpg",
+      "caption": "",
+      "source": "X",
+      "original_width": "1200px",
+      "original_height": "826px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5412fc7a775e.png",
+      "caption": "",
+      "source": "Tira",
+      "original_width": "1672px",
+      "original_height": "941px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/81c1abe29ded.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/059eb1ebc93e.jpg",
+      "caption": "",
+      "source": "LinkedIn",
+      "original_width": "800px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7213946eb9fb.jpg",
+      "caption": "",
+      "source": "LinkedIn",
+      "original_width": "800px",
+      "original_height": "1066px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3ecd3070119e.jpg",
+      "caption": "",
+      "source": "Indian Retailer",
+      "original_width": "1200px",
+      "original_height": "706px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4997782cd199.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/dc4e02b75137.jpg",
+      "caption": "",
+      "source": "Reddit",
+      "original_width": "1284px",
+      "original_height": "2282px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/23da7c97e69c.jpeg",
+      "caption": "",
+      "source": "The Nod",
+      "original_width": "1706px",
+      "original_height": "2050px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/65b23f33212c.jpeg",
+      "caption": "",
+      "source": "Reddit",
+      "original_width": "1170px",
+      "original_height": "2532px"
+    }
+  ]
+}

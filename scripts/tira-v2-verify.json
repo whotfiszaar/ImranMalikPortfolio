@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "**Desktop:**\n1) **Yes**, the red 'tira' wordmark is in a light/regular weight with thin, clean strokes.\n2) **No**, the logo is placed on a solid white rectangular tile (box), not directly on the cream background or transparent.\n3) **Yes**, the proportions are correct (wider than tall).\n4) **Yes**, all letters are fully visible and not cut off.\n\n**Mobile:**\nThe red lowercase 'tira' wordmark is **not present** in the mobile screenshot. The brand strip only displays IKEA and Kama Ayurveda.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789482103,
+  "id": "2026091522213553c118fc6a6a4161",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026091522213553c118fc6a6a4161",
+  "usage": {
+    "completion_tokens": 125,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2177,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 2302
+  }
+}

@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "tira beauty logo png transparent background red wordmark isolated"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "tira beauty logo png transparent background red wordmark isolated",
+  "count": 8,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3647db6b9934.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "1390px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2e60c8483178.jpg",
+      "caption": "",
+      "source": "Tira",
+      "original_width": "1500px",
+      "original_height": "1500px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5bcbf8988ccf.png",
+      "caption": "",
+      "source": "X",
+      "original_width": "1200px",
+      "original_height": "889px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/da219e027cf9.jpg",
+      "caption": "",
+      "source": "Built Bar",
+      "original_width": "1946px",
+      "original_height": "1946px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e5aa3c41dd50.png",
+      "caption": "",
+      "source": "tataharperskincare.com",
+      "original_width": "1080px",
+      "original_height": "1440px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c082f5b238c5.jpg",
+      "caption": "",
+      "source": "Adobe Stock",
+      "original_width": "1000px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/35320e2f3c8a.jpg",
+      "caption": "",
+      "source": "Cedar Hill Apothecary",
+      "original_width": "2048px",
+      "original_height": "1109px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bfc0ba1cdfe4.jpg",
+      "caption": "",
+      "source": "VectorStock",
+      "original_width": "1000px",
+      "original_height": "1080px"
+    }
+  ]
+}

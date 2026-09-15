@@ -1,0 +1,40 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "Tira Beauty 印度美妆品牌 logo 红色字母"
+✅ Got 4 images
+{
+  "success": true,
+  "query": "Tira Beauty 印度美妆品牌 logo 红色字母",
+  "count": 4,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4a2978b9b3ac.jpg",
+      "caption": "",
+      "source": "知乎专栏",
+      "original_width": "1427px",
+      "original_height": "1245px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d7176e3f9299.jpg",
+      "caption": "",
+      "source": "知乎专栏",
+      "original_width": "1440px",
+      "original_height": "939px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f3bc2cff69ca.jpg",
+      "caption": "",
+      "source": "Scribd",
+      "original_width": "768px",
+      "original_height": "1024px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e01a300d7750.jpg",
+      "caption": "",
+      "source": "Scribd",
+      "original_width": "768px",
+      "original_height": "1024px"
+    }
+  ]
+}
