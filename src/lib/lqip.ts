@@ -47,5 +47,29 @@ export const DIMENSIONS: Record<string, { w: number; h: number }> = {
   "conference-moment.jpg": {
     "w": 1400,
     "h": 3038
+  },
+  "tira-store-launch.jpg": {
+    "w": 1330,
+    "h": 1767
+  },
+  "tira-store-front.jpg": {
+    "w": 1600,
+    "h": 1173
+  },
+  "tira-interior.jpg": {
+    "w": 1280,
+    "h": 720
+  },
+  "tira-beauty-doors.jpg": {
+    "w": 1600,
+    "h": 739
+  },
+  "tira-team-store.jpg": {
+    "w": 720,
+    "h": 1280
+  },
+  "bin-dubai.jpg": {
+    "w": 872,
+    "h": 1600
   }
 };

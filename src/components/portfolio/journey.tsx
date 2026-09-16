@@ -103,14 +103,51 @@ export function Journey() {
                           </div>
                         )}
 
-                        <ul className="mt-5 space-y-2.5">
-                          {job.points.map((point) => (
-                            <li key={point} className="flex items-start gap-2.5 text-sm text-muted-foreground leading-relaxed">
-                              <ChevronRight className="w-4 h-4 mt-0.5 text-[#c9a24b] flex-shrink-0" aria-hidden="true" />
-                              {point}
-                            </li>
-                          ))}
-                        </ul>
+                        <div className="mt-5 space-y-1">
+                          {job.points.map((point, idx) => {
+                            const isObj = typeof point === "object";
+                            const title = isObj
+                              ? point.title
+                              : point.includes(":")
+                              ? point.split(":")[0]
+                              : undefined;
+                            const text = isObj
+                              ? point.text
+                              : point.includes(":")
+                              ? point.slice(point.indexOf(":") + 1).trim()
+                              : point;
+
+                            if (title) {
+                              return (
+                                <div key={idx} className="relative group/point">
+                                  <div className="flex items-center gap-2.5">
+                                    <span
+                                      className="flex-shrink-0 w-2.5 h-2.5 rounded-full border border-[#c9a24b] bg-[#121009] flex items-center justify-center shadow-[0_0_8px_rgba(201,162,75,0.4)]"
+                                      aria-hidden="true"
+                                    >
+                                      <span className="w-1 h-1 rounded-full bg-[#c9a24b]" />
+                                    </span>
+                                    <h4 className="font-semibold text-xs md:text-sm text-[#efe8d6] tracking-wide">
+                                      {title}
+                                    </h4>
+                                  </div>
+                                  <div className="ml-[4px] border-l border-dotted border-[#c9a24b]/40 pl-4 pt-1 pb-2.5">
+                                    <p className="text-xs md:text-[0.875rem] text-[#b8b09d] leading-relaxed italic font-light">
+                                      {text}
+                                    </p>
+                                  </div>
+                                </div>
+                              );
+                            }
+
+                            return (
+                              <div key={idx} className="flex items-start gap-2.5 text-xs md:text-sm text-muted-foreground leading-relaxed py-1">
+                                <span className="w-1.5 h-1.5 rounded-full bg-[#c9a24b] mt-2 flex-shrink-0" aria-hidden="true" />
+                                <span>{text}</span>
+                              </div>
+                            );
+                          })}
+                        </div>
 
                         <div className="mt-6 flex flex-wrap gap-2">
                           {job.tags.map((tag) => (

@@ -26,9 +26,9 @@ function PersonJsonLd() {
     name: "Imran Malik",
     givenName: "Imran",
     familyName: "Malik",
-    jobTitle: "Operations Manager - NSA",
+    jobTitle: "National NSO Lead / Operations Manager",
     description:
-      "Retail Operations and Business Management Leader with 10+ years across India's beauty and luxury retail sector.",
+      "Retail Operations Leader & System Builder scaling multi-store ecosystems and high-performance teams across India's beauty and luxury retail sector.",
     email: "mailto:imrankn22@gmail.com",
     telephone: "+919168422339",
     url: siteUrl,
@@ -47,6 +47,7 @@ function PersonJsonLd() {
     nationality: "Indian",
     worksFor: [
       { "@type": "Organization", name: "Tira Beauty" },
+      { "@type": "Organization", name: "Smart Co. Dubai (BinDubai LLC)" },
       { "@type": "Organization", name: "IKEA" },
       { "@type": "Organization", name: "Kama Ayurveda" },
       { "@type": "Organization", name: "Forest Essentials" },

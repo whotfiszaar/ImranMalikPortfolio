@@ -91,13 +91,13 @@ export function Contact() {
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Get in Touch"
+          eyebrow="Open for Advisory & Mentorship"
           title={
             <>
-              Let&apos;s <span className="text-gold-gradient italic">Talk</span>
+              Let’s Elevate Your <span className="text-gold-gradient italic">Retail Operations & Career</span>
             </>
           }
-          description="Open to retail leadership roles, store expansion mandates, and conversations about building great retail."
+          description="I partner with beauty brands, retail startups, makeup academies, and individual beauty professionals, from aspiring BAs, Supervisors, and Store Managers looking to level up, to rising talent stepping into Area Manager roles, and brands scaling their retail network, looking to structure operations, train frontline teams, and build high-performance, motivated cultures. Whether you are optimizing a store's daily workflow or accelerating your personal career growth in retail, let's connect."
         />
 
         <div className="grid md:grid-cols-3 gap-5 md:gap-6 max-w-5xl mx-auto">

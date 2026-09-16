@@ -13,13 +13,13 @@ export function About() {
       />
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Executive Profile"
+          eyebrow="Leadership Philosophy"
           title={
             <>
-              The Leader Behind <span className="text-gold-gradient italic">the Store</span>
+              Developing People to <span className="text-gold-gradient italic">Drive Performance</span>
             </>
           }
-          description="A career built on the shop floor, sharpened by the numbers, and measured by the people who grow along the way."
+          description="Systems matter, but people build the business. Transforming frontline teams into self-driven, motivated powerhouses."
         />
 
         <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-10 lg:gap-14 items-start">

@@ -184,7 +184,7 @@ export function Hero() {
               <div className="absolute bottom-5 inset-x-5 flex items-center justify-between rounded-2xl border border-[#c9a24b]/25 bg-[#0a0908]/70 backdrop-blur-md px-5 py-3.5">
                 <div>
                   <p className="font-display font-bold text-lg leading-tight text-foreground">Imran Malik</p>
-                  <p className="text-xs text-gold-light/90 font-semibold tracking-wide mt-0.5">Retail Sales & Operations Leader</p>
+                  <p className="text-xs text-gold-light/90 font-semibold tracking-wide mt-0.5">National NSO Lead · System Builder</p>
                 </div>
                 <Sparkles className="w-5 h-5 text-[#c9a24b]" aria-hidden="true" />
               </div>

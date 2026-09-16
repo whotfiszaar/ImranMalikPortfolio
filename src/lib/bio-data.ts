@@ -8,13 +8,13 @@ export const PROFILE = {
   name: "Imran Malik",
   firstName: "Imran",
   monogram: "IM",
-  headline: "Retail Operations & Business Management Leader",
-  headlinePlain: "Retail Operations and Business Management Leader",
+  headline: "Retail Operations Leader & System Builder | Scaling Multi-Store Ecosystems & High-Performance Teams",
+  headlinePlain: "Retail Operations Leader and System Builder | Scaling Multi-Store Ecosystems and High-Performance Teams",
   specialties: [
     "Beauty & Luxury Retail Specialist",
     "Multi-Store Operations",
-    "Customer Experience",
-    "Revenue Growth",
+    "National NSO Execution",
+    "High-Performance Culture",
   ],
   email: "imrankn22@gmail.com",
   phone: "+91 91684 22339",
@@ -22,15 +22,15 @@ export const PROFILE = {
   location: "Mumbai, India",
   locationShort: "Mumbai",
   brandStatement:
-    "Transforming retail businesses through operational excellence, customer-centric leadership, and high-performance team culture. Passionate about building brands, developing people, and creating exceptional customer experiences that drive sustainable growth.",
+    "Systems matter, but people build the business. Mentoring, coaching, and transforming frontline teams into self-driven, motivated powerhouses.",
   intro: [
-    "With more than a decade of experience in India's luxury, beauty, and organized retail sector, Imran Malik has built a distinguished career leading large-scale retail operations, driving profitable growth, launching new stores, and building high-performance teams. He has worked with leading brands such as Tira Beauty, IKEA, Kama Ayurveda, and Forest Essentials.",
-    "His expertise spans retail strategy, business operations, customer experience management, store profitability, market expansion, sales leadership, team development, and operational excellence. Throughout his career, he has consistently transformed retail locations into high-performing business units while creating exceptional customer experiences.",
+    "Throughout my journey scaling retail footprints and leading multi-door operations across India, my core philosophy has remained unchanged: systems matter, but people build the business.",
+    "Beyond opening stores and driving regional sales, my true anchor is mentoring, coaching, and unlocking potential across retail networks. Whether preparing floor teams for high-stakes launches, coaching store managers into confident leaders, or advising brands on building high-energy cultures, I specialize in transforming everyday teams into self-driven, motivated powerhouses.",
   ],
   stats: [
     { value: "10+", label: "Years of Leadership", detail: "Progressive retail leadership across sectors" },
-    { value: "4", label: "Leading Brands", detail: "Tira Beauty, IKEA, Kama Ayurveda, Forest Essentials" },
-    { value: "8", label: "Leadership Roles", detail: "From Store Manager to Operations Manager" },
+    { value: "57", label: "Stores Scaled", detail: "Pan-India EBO footprint built from ground up" },
+    { value: "3+", label: "Flagship NSO Doors", detail: "High-performing doors with national pipeline" },
     { value: "12", label: "Recommendations", detail: "Endorsements from leaders and colleagues" },
   ],
 };
@@ -117,6 +117,11 @@ export const STRENGTHS = [
   "Operational Transformation",
 ];
 
+export interface CareerPoint {
+  title?: string;
+  text: string;
+}
+
 export interface CareerRole {
   id: string;
   role: string;
@@ -128,35 +133,48 @@ export interface CareerRole {
   current?: boolean;
   summary: string;
   mission?: string;
-  points: string[];
+  points: (string | CareerPoint)[];
   tags: string[];
 }
 
 export const CAREER: CareerRole[] = [
   {
-    id: "tira-flagship",
-    role: "Operations Manager - NSA",
-    heading: "Retail Sales & Operations Leader",
+    id: "tira-nso",
+    role: "National NSO Lead / Operations Manager",
+    heading: "National Footprint",
     company: "Tira Beauty",
     companyBadge: "T",
-    period: "Nov 2025 - Present",
-    periodLabel: "November 2025 to Present",
+    period: "2025 - Present (National Footprint)",
+    periodLabel: "2025 to Present",
     current: true,
     summary:
-      "Heading retail sales and operations, driving store business performance, customer experience excellence, revenue growth, and operational efficiency across the network.",
+      "Orchestrating end-to-end new store openings across the country; having successfully launched 3 high-performing doors with more in the pipeline by synchronizing multiple cross-functional teams toward the singular strategic objective of building the best beauty store with absolute precision.",
     mission:
-      "Building India's best beauty retail destination through customer obsession, operational discipline, and a high-performance culture.",
+      "Building India's finest beauty retail doors through synchronized cross-functional execution and operational precision.",
     points: [
-      "Leading retail sales and operations across the network",
-      "Driving store-level growth and profitability",
-      "Creating customer-centric retail experiences",
-      "Mentoring and developing future retail leaders",
+      {
+        title: "National NSO Orchestration",
+        text: "Orchestrating end-to-end new store openings across the country, synchronizing design, fit-out, and operational readiness.",
+      },
+      {
+        title: "3 Flagship Doors Launched",
+        text: "Successfully launched 3 high-performing doors with more in the active pipeline, consistently beating early revenue targets.",
+      },
+      {
+        title: "Cross-Functional Synchronization",
+        text: "Uniting retail ops, visual merchandising, training, and supply chain teams behind a singular launch objective.",
+      },
+      {
+        title: "Operational Precision",
+        text: "Setting the benchmark for beauty store excellence through rigorous day-one inventory and floor execution standards.",
+      },
     ],
-    tags: ["Beauty Retail", "Retail Sales", "Revenue Growth", "Team Leadership"],
+    tags: ["National NSO", "Beauty Retail", "Store Openings", "Team Leadership"],
   },
   {
-    id: "tira",
+    id: "tira-director",
     role: "Store Director",
+    heading: "Flagship Retail Leadership",
     company: "Tira Beauty",
     companyBadge: "T",
     period: "2023 - 2024",
@@ -164,16 +182,59 @@ export const CAREER: CareerRole[] = [
     summary:
       "One of the earliest Store Directors associated with Tira's rapid expansion phase, shaping the brand's operating playbook as it grew from its first stores into a national footprint.",
     points: [
-      "Contributed during the expansion from the first stores to a growing national footprint",
-      "Helped establish operational standards and performance benchmarks",
-      "Built strong store cultures focused on service excellence",
-      "Led business growth through customer engagement and people development",
+      {
+        title: "Executive Leadership & Culture",
+        text: "Mentored cross-functional retail talent from BAs to Store Managers, fostering a high-accountability floor culture.",
+      },
+      {
+        title: "P&L & Business Strategy",
+        text: "Directed flagship store operations with a sharp focus on profitability, capital efficiency, and regional alignment.",
+      },
+      {
+        title: "Target Achievement & Velocity",
+        text: "Drove aggressive floor management to consistently crush revenue milestones and hit targets ahead of schedule.",
+      },
+      {
+        title: "System Builder Architecture",
+        text: "Replaced individual heroics with scalable operational frameworks that empower everyday teams to deliver predictable results.",
+      },
+      {
+        title: "Inventory & Category Optimization",
+        text: "Streamlined backroom-to-floor stock flow and category merchandising with Stock Controllers to minimize shrinkage and maximize availability.",
+      },
     ],
-    tags: ["Expansion Phase", "Operational Standards", "Service Culture"],
+    tags: ["Store Director", "P&L Ownership", "System Builder", "Expansion Phase"],
+  },
+  {
+    id: "dubai-consultant",
+    role: "Consultant | Smart Co. Dubai (BinDubai LLC)",
+    heading: "UAE Advisory",
+    company: "Smart Co. Dubai (BinDubai LLC)",
+    companyBadge: "D",
+    period: "2022 - 2023 | Dubai, UAE",
+    periodLabel: "2022 to 2023",
+    summary:
+      "Advised leadership on business setup frameworks, operational structuring, and corporate identity transitions for Dubai-based enterprises, driving regulatory alignment and streamlining client service delivery.",
+    points: [
+      {
+        title: "Business Setup Frameworks",
+        text: "Advised enterprise leadership on strategic business setup frameworks and commercial structuring in Dubai.",
+      },
+      {
+        title: "Operational Structuring",
+        text: "Engineered scalable workflows, corporate identity transitions, and client service delivery standards for UAE enterprises.",
+      },
+      {
+        title: "Regulatory Alignment",
+        text: "Drove regulatory alignment, compliance standards, and streamlined multi-disciplinary commercial execution.",
+      },
+    ],
+    tags: ["Dubai UAE", "Business Setup", "Operational Structuring", "Corporate Identity"],
   },
   {
     id: "ikea",
     role: "IKEA Family Leader (City Marketing Manager)",
+    heading: "Loyalty & City Engagement",
     company: "IKEA",
     companyBadge: "I",
     period: "2021 - 2022",
@@ -181,97 +242,70 @@ export const CAREER: CareerRole[] = [
     summary:
       "Responsible for loyalty program management and city-wide customer engagement initiatives at IKEA, connecting the brand with the city it served.",
     points: [
-      "Loyalty and membership strategy",
-      "Consumer engagement programs and customer relationship management",
-      "Offline marketing campaigns and store traffic generation",
-      "Community and brand activation events",
-      "Increased customer participation and engagement",
-      "Enhanced loyalty program effectiveness and local market visibility",
+      {
+        title: "Loyalty & Membership Strategy",
+        text: "Directed membership engagement and relationship management across large-scale retail consumer segments.",
+      },
+      {
+        title: "City-Wide Activations",
+        text: "Executed high-impact brand activations, offline marketing campaigns, and store traffic generation initiatives.",
+      },
+      {
+        title: "Community Growth",
+        text: "Substantially expanded active loyalty participation and localized brand affinity across urban catchment areas.",
+      },
     ],
     tags: ["Loyalty Programs", "City Marketing", "Brand Activation"],
   },
   {
-    id: "kama-ops",
-    role: "Retail Operations Manager",
+    id: "kama-leadership",
+    role: "Retail Operations, Marketing & Business Leadership",
+    heading: "7-Year Leadership Tenure",
     company: "Kama Ayurveda",
     companyBadge: "K",
-    period: "2019 - 2021",
-    periodLabel: "2019 to 2021",
+    period: "2015 - 2021 (7-Year Tenure)",
+    periodLabel: "2015 to 2021",
     summary:
-      "Managed large-scale retail operations and expansion projects for one of India's most loved Ayurveda beauty brands.",
+      "A seven-year tenure scaling Kama Ayurveda's retail presence across India from ground-level store leadership to 57 exclusive brand outlets nationwide.",
     points: [
-      "Business growth planning and revenue optimization",
-      "New store openings and refurbishment programs",
-      "Retail operations governance and inventory management",
-      "Team capability development and customer experience enhancement",
-      "Improved operational efficiency across the store network",
-      "Developed strong regional retail leadership teams",
+      {
+        title: "Store Management (Year 1)",
+        text: "Built the foundational ground-level retail experience as Store Manager, mastering floor operations, customer-first execution, and direct revenue generation.",
+      },
+      {
+        title: "Retail & Consumer Marketing - West & South India (Years 2-4)",
+        text: "Drove regional brand building, consumer marketing, and retail marketing across West and South India, successfully managing marketing and brand strategy for 28 EBO stores.",
+      },
+      {
+        title: "Pan-India Operations (Years 5-7)",
+        text: "Spearheaded pan-India retail operations as the brand scaled its exclusive brand outlets (EBOs) from the ground up to a massive footprint of 57 stores, engineering the operational systems, inventory frameworks, and execution standards required for rapid nationwide growth.",
+      },
     ],
-    tags: ["Operations", "Expansion", "P&L", "Refurbishment"],
-  },
-  {
-    id: "kama-deputy",
-    role: "Deputy Operations Manager",
-    company: "Kama Ayurveda",
-    companyBadge: "K",
-    period: "2018 - 2019",
-    periodLabel: "2018 to 2019",
-    summary:
-      "Managed retail operations for West and South India, building the leadership layer that would carry the brand's growth.",
-    points: [
-      "Developed a sales-driven store culture",
-      "Coached Area Managers and Store Managers",
-      "Created performance improvement initiatives",
-      "Worked closely with Learning & Development teams on capability building",
-    ],
-    tags: ["Regional Ops", "Coaching", "Capability Building"],
-  },
-  {
-    id: "kama-marketing",
-    role: "Assistant Marketing Manager",
-    company: "Kama Ayurveda",
-    companyBadge: "K",
-    period: "2016 - 2018",
-    periodLabel: "2016 to 2018",
-    summary:
-      "Led marketing initiatives focused on store growth and customer engagement across West and South India, driving footfall and brand love.",
-    points: [
-      "Store growth and customer engagement marketing",
-      "Regional campaign planning and execution",
-      "Sales strategy input grounded in market data",
-    ],
-    tags: ["Marketing", "Customer Engagement", "Regional Growth"],
-  },
-  {
-    id: "kama-store",
-    role: "Retail Store Manager",
-    company: "Kama Ayurveda",
-    companyBadge: "K",
-    period: "2015 - 2016",
-    periodLabel: "2015 to 2016",
-    summary:
-      "Managed complete store operations, owning every metric that mattered, from sales to staffing to customer satisfaction.",
-    points: [
-      "Sales performance and business profitability",
-      "Staffing, training, and team development",
-      "Inventory management and customer satisfaction",
-    ],
-    tags: ["Store P&L", "Team Development", "Inventory"],
+    tags: ["7-Year Tenure", "57 Stores Scaled", "Pan-India Ops", "Retail Marketing"],
   },
   {
     id: "forest",
     role: "Store Manager",
+    heading: "Luxury Airport Flagship",
     company: "Forest Essentials",
     companyBadge: "F",
     period: "2013 - 2015",
     periodLabel: "2013 to 2015",
     summary:
-      "Managed luxury Ayurveda brand operations at Mumbai International Airport Terminal 2, serving travellers from around the world.",
+      "Managed luxury Ayurveda brand operations at Mumbai International Airport Terminal 2, serving international travelers from around the world.",
     points: [
-      "Increased retail revenue at the airport store",
-      "Delivered premium customer experiences",
-      "Maintained visual merchandising excellence",
-      "Improved customer loyalty and optimized inventory and profitability metrics",
+      {
+        title: "Flagship Luxury Operations",
+        text: "Accelerated retail revenue at Mumbai International Airport T2 while maintaining impeccable luxury presentation benchmarks.",
+      },
+      {
+        title: "Bespoke Consultations",
+        text: "Delivered elevated customer experiences for high-net-worth international clientele, driving exceptional retention.",
+      },
+      {
+        title: "Inventory & Category Margin",
+        text: "Optimized inventory turnover, visual merchandising standards, and overall store profitability.",
+      },
     ],
     tags: ["Luxury Retail", "Airport T2", "Visual Merchandising"],
   },
@@ -279,27 +313,27 @@ export const CAREER: CareerRole[] = [
 
 export const PHILOSOPHY = [
   {
-    title: "Customer First",
+    title: "People Build the Business",
     description:
-      "Every operational decision must improve customer experience. When the customer wins, the business wins.",
-    icon: "heart",
-  },
-  {
-    title: "People-Centric Leadership",
-    description:
-      "Building empowered, high-performing teams through coaching, mentorship, and an ownership culture.",
+      "Systems matter, but people build the business. Transforming frontline teams into self-driven, motivated powerhouses.",
     icon: "users",
   },
   {
-    title: "Operational Excellence",
+    title: "System Builder Architecture",
     description:
-      "Simplifying store operations through automation, process improvement, and continuous measurement.",
+      "Replacing individual heroics with scalable operational frameworks that empower everyday teams to deliver predictable results.",
     icon: "settings",
+  },
+  {
+    title: "Customer First Obsession",
+    description:
+      "Every operational decision must improve customer experience on the shop floor. When the customer wins, the business wins.",
+    icon: "heart",
   },
   {
     title: "Growth Through Execution",
     description:
-      "Translating strategy into measurable business outcomes through disciplined, consistent execution.",
+      "Translating strategy into high-velocity store launches, aggressive floor management, and sustained profitability.",
     icon: "trending",
   },
 ];
@@ -314,13 +348,56 @@ export interface GalleryImage {
 
 export const GALLERY_CATEGORIES = [
   { id: "all", label: "All Moments" },
+  { id: "tira", label: "Tira Beauty" },
   { id: "ikea", label: "IKEA Chapter" },
   { id: "kama", label: "Kama Ayurveda" },
   { id: "events", label: "Events & Workshops" },
-  { id: "global", label: "Global Exposure" },
+  { id: "global", label: "Global & Dubai" },
 ];
 
 export const GALLERY: GalleryImage[] = [
+  {
+    src: "/images/tira-store-launch.jpg",
+    alt: "Imran Malik at Tira Beauty flagship store launch",
+    caption: "Tira Beauty flagship store launch and floor leadership",
+    category: "tira",
+    orientation: "portrait",
+  },
+  {
+    src: "/images/tira-store-front.jpg",
+    alt: "Imran Malik with Tira Beauty store team at grand opening",
+    caption: "Grand opening with the Tira Beauty frontline team",
+    category: "tira",
+    orientation: "landscape",
+  },
+  {
+    src: "/images/tira-interior.jpg",
+    alt: "Tira Beauty luxury store interior and brand fixtures",
+    caption: "Store interior architecture and luxury category experience",
+    category: "tira",
+    orientation: "landscape",
+  },
+  {
+    src: "/images/tira-beauty-doors.jpg",
+    alt: "Tira high-performing beauty door launch and visual merchandising",
+    caption: "Visual merchandising and door launch execution",
+    category: "tira",
+    orientation: "landscape",
+  },
+  {
+    src: "/images/tira-team-store.jpg",
+    alt: "Imran Malik with store operations leadership at Tira",
+    caption: "Store operations team culture and launch readiness",
+    category: "tira",
+    orientation: "portrait",
+  },
+  {
+    src: "/images/bin-dubai.jpg",
+    alt: "Imran Malik in Dubai for business advisory and consultancy",
+    caption: "Consulting and enterprise advisory in Dubai (Smart Co. Dubai / BinDubai LLC)",
+    category: "global",
+    orientation: "portrait",
+  },
   {
     src: "/images/ikea-team.jpg",
     alt: "Imran Malik with the IKEA team in a modern office",
@@ -547,14 +624,17 @@ export function buildAssistantPrompt(): string {
     (r) =>
       `- ${r.role} at ${r.company} (${r.periodLabel}): ${r.summary} Key work: ${r.points
         .slice(0, 3)
-        .map((p) => p.replace(/;/g, ","))
+        .map((p) => {
+          if (typeof p === "string") return p.replace(/;/g, ",");
+          return `${p.title ? p.title + ": " : ""}${p.text.replace(/;/g, ",")}`;
+        })
         .join("; ")}`
   ).join("\n");
 
   return `You are the personal AI assistant on Imran Malik's portfolio website. You know Imran Malik deeply and answer questions about his professional life.
 
 ABOUT IMRAN MALIK:
-Imran Malik is a Retail Operations and Business Management Leader, a Beauty and Luxury Retail Specialist, based in Mumbai, India, with more than 10 years of experience in India's luxury, beauty, and organized retail sector.
+Imran Malik is a Retail Operations Leader & System Builder | Scaling Multi-Store Ecosystems & High-Performance Teams, based in Mumbai, India, with more than 10 years of experience leading beauty and luxury retail. Current role: National NSO Lead / Operations Manager at Tira Beauty (2025 - Present), orchestrating end-to-end new store openings across the country.
 
 CONTACT DETAILS (you may share these):
 Email: imrankn22@gmail.com
@@ -562,8 +642,8 @@ Phone: +91 91684 22339
 Location: Mumbai, India
 LinkedIn: https://www.linkedin.com/in/imran-kn/
 
-BRANDS HE HAS WORKED WITH:
-Tira Beauty, IKEA, Kama Ayurveda, and Forest Essentials.
+BRANDS & COMPANIES HE HAS WORKED WITH:
+Tira Beauty, Smart Co. Dubai (BinDubai LLC), IKEA, Kama Ayurveda, and Forest Essentials.
 
 CAREER TIMELINE (most recent first):
 ${roles}
