@@ -31,7 +31,7 @@ export const PROFILE = {
     { value: "10+", label: "Years of Leadership", detail: "Progressive retail leadership across sectors" },
     { value: "57", label: "Stores Scaled", detail: "Pan-India EBO footprint built from ground up" },
     { value: "3+", label: "Flagship NSO Doors", detail: "High-performing doors with national pipeline" },
-    { value: "12", label: "Recommendations", detail: "Endorsements from leaders and colleagues" },
+    { value: "13", label: "Recommendations", detail: "Endorsements from leaders and colleagues" },
   ],
 };
 
@@ -468,6 +468,15 @@ export interface Testimonial {
 export const TESTIMONIALS: Testimonial[] = [
   {
     quote:
+      "Working with Imran, he consistently stood out as hardworking, reliable, and someone who always followed through. He genuinely invested in mentoring his team, coaching their growth rather than just managing tasks. He also brought real innovation, finding smarter ways to turn strategic vision into results on the floor. Beyond that, he was simply great to work with - collaborative, positive, and a team player through and through. It's been a pleasure watching his growth, and I wish him all the best ahead.",
+    name: "Salim Sayed",
+    title: "Retail Operations Manager | Multi-Store Operations | Business Expansion | GCC Retail Leadership | Sales & Commercial Growth",
+    meta: "September 2026 · Managed Imran directly",
+    initials: "SS",
+    image: "/images/people/salim.jpg",
+  },
+  {
+    quote:
       "I would highly recommend Imran to any person and organization. In an age where people will only join for designations and money, Imran brought in a spirit of driving culture, ambition and ownership to Tira. He has been an integral part of new store openings and then driving the stores to achieve milestone numbers which he took upon himself as targets. He is an absolute team player and a driving force for other team members in and outside his team.",
     name: "Nirant Khedkar",
     title: "Consulting Business Head - Tira Beauty | Ex-KIKO Milano - MEA | Ex-Rituals | Ex-L'Oreal | Ex-Estee Lauder",
@@ -663,7 +672,7 @@ LEADERSHIP PHILOSOPHY:
 - Operational Excellence: simplifying operations through automation, process improvement, and measurement
 - Growth Through Execution: translating strategy into measurable business outcomes
 
-RECOMMENDATIONS SUMMARY: Twelve colleagues and leaders have recommended Imran, including a Consulting Business Head who managed him at Tira, a Brand Management leader at IKEA, an AGM Sales at Kama Ayurveda, a Co-Founder at Activ Beauté, and a Deputy General Manager at Hindustan Times. They praise his analytical mindset, team leadership, creativity, dedication, and ability to grow sales in tough regions.
+RECOMMENDATIONS SUMMARY: Thirteen colleagues and leaders have recommended Imran, including Salim Sayed (Retail Operations Manager who managed Imran directly), Nirant Khedkar (Consulting Business Head at Tira), a Brand Management leader at IKEA, an AGM Sales at Kama Ayurveda, a Co-Founder at Activ Beauté, and a Deputy General Manager at Hindustan Times. They praise his analytical mindset, team leadership, mentorship, operational innovation, dedication, and ability to turn strategic vision into floor results.
 
 HOW YOU ANSWER:
 1. Only answer questions about Imran Malik, his career, his experience, his skills, his education, his contact details, and his portfolio website. If asked about anything else, politely redirect the person back to Imran's professional profile.
